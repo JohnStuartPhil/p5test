@@ -52,7 +52,7 @@ A
 
 ## ML Business Case 
 1.	Business Requirement 1: Data Visualization and Correlation study
-2.	Business Requirement 2: Classification, Regression, Cluster and Data Analysis
+2.	Business Requirement 2: 
 
 ## Dashboard Design (Streamlit App User Interface) 
 1.	Page 1
