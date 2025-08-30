@@ -1,5 +1,9 @@
 # projectfive
 
+## Dataset Content 
+The dataset is sourced from Kaggle. It is a fictitious user story where predictive analytics is applied in the project. Each row represents a house in Iowa, each column contains an attribute about each house. The data set includes information about:
+
+
 | Column  | Variable | Meaning | Unit | Missing data? | 
 | ----------- | ----------- | ----------- | ----------- | ----------- | 
 |   A  | 1stFlrSF     |  First Floor in square feet   |   334 to 4,692     |  no  | 
@@ -27,4 +31,27 @@
 |    W  | YearRemodAdd     |  Remodel date (same as construction date if no remodeling or additions)   |    1950 to 2010    | no   | 
 |    X  |  SalePrice    |   Sale Price   |   34,900 to 755,000     |no    | 
 
+## Product Terms & Jargon 
+TBC
+
+## Business Requirements 
+1.	The client is interested in discovering how the house attributes correlate with the sale price. Therefore, the client expects data visualisations of the correlated variables against the sale price to show that.
+2.	The client is interested in predicting the house sales price from her four inherited houses, and any other house in Ames, Iowa.
+
+## Hypothesis and how to validate 
+1.	A
+2.	A Correlation study can help in this investigation
+3.	
+
+## The rationale to map the business requirements to the Data Visualizations and ML tasks 
+A
+
+## ML Business Case 
+1.	Business Requirement 1: Data Visualization and Correlation study
+2.	Business Requirement 2: Classification, Regression, Cluster and Data Analysis
+
+## Dashboard Design (Streamlit App User Interface) 
+1.	Page 1
+2.	Page 2
+3.	Page 3 etc
 
