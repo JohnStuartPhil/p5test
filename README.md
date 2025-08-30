@@ -1,7 +1,11 @@
-# projectfive
+# p5test
 
 ## Dataset Content 
 The dataset is sourced from Kaggle. It is a fictitious user story where predictive analytics is applied in the project. Each row represents a house in Iowa, each column contains an attribute about each house. The data set includes information about:
+
+-A
+-B
+-C
 
 
 | Column  | Variable | Meaning | Unit | Missing data? | 
