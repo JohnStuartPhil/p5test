@@ -25,3 +25,6 @@ class MultiPage:
 
 st.write("Hello world!!!! (for testing purposes)")
 st.write("---")
+
+st.radio(label='Radio button options (for testing purposes)', options=[1,2,3])
+st.write("---")
