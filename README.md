@@ -59,3 +59,8 @@ A
 2.	Page 2
 3.	Page 3 etc
 
+## References
+Much of the code was taken from the Chrunometer walkthrough and amended accordingly
+
+## Thank you
+Mentor: Rohit Sharma
