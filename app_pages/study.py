@@ -1,5 +1,6 @@
 import plotly.express as px
 import numpy as np
+import pandas as pd
 from feature_engine.discretisation import ArbitraryDiscretiser
 import streamlit as st
 from src.data_management import load_house_price_records_data
@@ -30,3 +31,7 @@ def study_body():
         st.write(df.head(10))
 
     st.write("---")
+
+
+
+
