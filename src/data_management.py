@@ -5,6 +5,7 @@ import joblib
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+
 @st.cache_data
 def load_house_price_records_data():
     df = pd.read_csv("outputs/datasets/collection/HousePriceRecords.csv")
