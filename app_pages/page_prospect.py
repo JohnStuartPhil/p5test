@@ -8,11 +8,11 @@ def page_prospect_body():
 
     # load predict Sale Price files
     version = 'v1'
-    tenure_pipe = load_pkl_file(
+    sale_price_pipe = load_pkl_file(
         f"outputs/ml_pipeline/predict_tenure/{version}/clf_pipeline.pkl")
-    tenure_labels_map = load_pkl_file(
+    sale_price_labels_map = load_pkl_file(
         f"outputs/ml_pipeline/predict_tenure/{version}/label_map.pkl")
-    tenure_features = (pd.read_csv(f"outputs/ml_pipeline/predict_sale_price/{version}/X_train.csv")
+    sale_price_features = (pd.read_csv(f"outputs/ml_pipeline/predict_sale_price/{version}/X_train.csv")
                        .columns
                        .to_list()
                        )
