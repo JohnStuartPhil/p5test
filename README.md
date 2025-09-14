@@ -1,7 +1,7 @@
 # p5test
 
 ## Dataset Content 
-The dataset is sourced from Kaggle. It is a fictitious user story where predictive analytics is applied in the project. Each row represents a house in Iowa, each column contains an attribute about each house. The data set includes information about:
+The dataset is sourced from Kaggle (https://www.kaggle.com/datasets/codeinstitute/housing-prices-data). It is a fictitious user story where predictive analytics is applied in the project. Each row represents a house in Iowa, each column contains an attribute about each house. The data set includes information about:
 
 - A
 - B
@@ -47,17 +47,53 @@ TBC
 2.	A Correlation study can help in this investigation
 3.	
 
-## The rationale to map the business requirements to the Data Visualizations and ML tasks 
-A
+## The rationale to map the business requirements to the Data Visualizations and ML task 
+- **Business Requirement 1:** Data Visualization and Correlation study
+	- We will inspect the data related to the customer base.
+	- We will conduct a correlation study (Pearson and Spearman) to understand better how the variables are correlated to the Sale Price.
+	- We will plot the main variables against the Sale Price to visualise insights.
+
+- **Business Requirement 2:** House Price Prediction
+	- We want to predict the sale price of houses in Iowa based on the best factors on each house.
+
+Ensure at least 1 ML task is mentioned in the “Rationale to map the business requirements to the Data Visualisations and ML tasks” section in the README file.
 
 ## ML Business Case 
 1.	Business Requirement 1: Data Visualization and Correlation study
-2.	Business Requirement 2: 
+2.	Business Requirement 2: Prediction of House Sale Prices
 
-## Dashboard Design (Streamlit App User Interface) 
-1.	Page 1
-2.	Page 2
-3.	Page 3 etc
+## Dashboard Design (Streamlit App User Interface)
+
+### Page 1: Quick project summary
+- Quick project summary
+	- Project Terms & Jargon
+	- Describe Project Dataset
+	- State Business Requirements
+
+### Page 2: House Price Study
+- Before the analysis, we knew we wanted this page to answer business requirement 1, but we couldn't know in advance which plots would need to be displayed.
+- After data analysis, we agreed with stakeholders that the page will: 
+	- State business requirement 1
+	- Checkbox: data inspection on customer base (display the number of rows and columns in the data, and display the first ten rows of the data)
+	- Display the most correlated variables to the sale prices and the conclusions
+	- Checkbox: Individual plots showing the sale prices for each correlated variable
+
+### Page 3: Sale Price Predictor
+- State business requirement 2
+- Set of widgets inputs, which relates to the predict profile. Each set of inputs is related to a given ML task to predict Sale Price.
+- "Run predictive sale price" button that serves the predict data to our ML pipelines and predicts the sale price. 
+
+### Page 4: Project Hypothesis and Validation
+- Before the analysis, we knew we wanted this page to describe each project hypothesis, the conclusions, and how we validated each. After the data analysis, we can report that:
+- 1 - TBC.
+- 2 - TBC.
+
+### Page 5: ML Pipeline: Predict Sale Price
+- Considerations and conclusions after the pipeline is trained
+- Present ML pipeline steps
+- Feature importance
+- Pipeline performance
+
 
 ## References
 Much of the code was taken from the Chrunometer walkthrough and amended accordingly

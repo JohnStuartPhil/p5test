@@ -15,6 +15,6 @@ app.app_page("Project Summary", page_summary_body)
 app.app_page("House Price Study", page_house_price_study_body)
 app.app_page("Prediction of Sale Price", page_prediction_body)
 app.app_page("Project Hypothesis and Validation", page_project_hypothesis_body)
-app.app_page("ML: Predict Sale Price", page_predict_sale_price_body)
+app.app_page("ML Pipeline: Predict Sale Price", page_predict_sale_price_body)
 
 app.run()
