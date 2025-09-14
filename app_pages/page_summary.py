@@ -29,8 +29,7 @@ def page_summary_body():
         f"The project has 2 business requirements:\n"
         f"* 1 - The client is interested in discovering how the house attributes correlate with the sale price. "
         f"Therefore, the client expects data visualisations of the correlated variables against the sale price to show that.\n "
-        f"* 2 - The client is interested in predicting the house sales price from her four inherited houses,  "
-        f"and any other house in Ames, Iowa. "
+        f"* 2 - The client is interested in predicting house sales price in Ames, Iowa. "
         )
 
 
