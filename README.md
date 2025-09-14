@@ -3,9 +3,13 @@
 ## Dataset Content 
 The dataset is sourced from Kaggle(https://www.kaggle.com/datasets/codeinstitute/housing-prices-data). It is a fictitious user story where predictive analytics is applied in the project. Each row represents a house in Iowa, each column contains an attribute about each house. The data set includes information about:
 
-- A
-- B
-- C
+- 1st/2nd floor
+- Basement
+- Garage
+- Kitchen
+- Lot
+- Porch
+- Years Built/Modified
 
 
 | Column  | Variable | Meaning | Unit | Missing data? | 
@@ -43,9 +47,7 @@ TBC
 2.	The client is interested in predicting the house sales price from her four inherited houses, and any other house in Ames, Iowa.
 
 ## Hypothesis and how to validate 
-1.	A
-2.	A Correlation study can help in this investigation
-3.	
+- It was found that the attributes <TBC> gave the higher sale prices.
 
 ## The rationale to map the business requirements to the Data Visualizations and ML task 
 - **Business Requirement 1:** Data Visualization and Correlation study
@@ -56,7 +58,6 @@ TBC
 - **Business Requirement 2:** House Price Prediction
 	- We want to predict the sale price of houses in Iowa based on the best factors on each house.
 
-Ensure at least 1 ML task is mentioned in the “Rationale to map the business requirements to the Data Visualisations and ML tasks” section in the README file.
 
 ## ML Business Case 
 1.	Business Requirement 1: Data Visualization and Correlation study
