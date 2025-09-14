@@ -20,10 +20,10 @@ def page_prospect_body():
     # load predict sale price files
     version = 'v1'
     sale_price_pipe = load_pkl_file(
-        f"outputs/ml_pipeline/predict_sale_price/{version}/clf_pipeline.pkl")
+        f"outputs/ml_pipeline/predict_saleprice/{version}/clf_pipeline.pkl")
     sale_price_labels_map = load_pkl_file(
-        f"outputs/ml_pipeline/predict_sale_price/{version}/label_map.pkl")
-    sale_price_features = (pd.read_csv(f"outputs/ml_pipeline/predict_sale_price/{version}/X_train.csv")
+        f"outputs/ml_pipeline/predict_saleprice/{version}/label_map.pkl")
+    sale_price_features = (pd.read_csv(f"outputs/ml_pipeline/predict_saleprice/{version}/X_train.csv")
                        .columns
                        .to_list()
                        )
