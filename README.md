@@ -1,7 +1,7 @@
 # p5test
 
 ## Dataset Content 
-The dataset is sourced from Kaggle (https://www.kaggle.com/datasets/codeinstitute/housing-prices-data). It is a fictitious user story where predictive analytics is applied in the project. Each row represents a house in Iowa, each column contains an attribute about each house. The data set includes information about:
+The dataset is sourced from Kaggle(https://www.kaggle.com/datasets/codeinstitute/housing-prices-data). It is a fictitious user story where predictive analytics is applied in the project. Each row represents a house in Iowa, each column contains an attribute about each house. The data set includes information about:
 
 - A
 - B
