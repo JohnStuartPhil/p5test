@@ -4,7 +4,7 @@ from src.data_management import load_house_price_records_data, load_pkl_file
 from src.machine_learning.predictive_analysis_ui import (predict_sale_price)
 
 
-def page_prospect_body():
+def page_prediction_body():
 
     # # load predict churn files
     # version = 'v1'
