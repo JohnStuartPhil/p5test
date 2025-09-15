@@ -44,11 +44,11 @@ def page_predict_sale_price_body():
     # st.write(tenure_pipe)
     # st.write("---")
 
-    # # show best features
-    # st.write("* The features the model was trained and their importance.")
-    # st.write(X_train.columns.to_list())
-    # st.image(tenure_feat_importance)
-    # st.write("---")
+    # show best features
+    st.write("* The features the model was trained and their importance.")
+    #st.write(X_train.columns.to_list())
+    st.image(sale_price_feat_importance)
+    st.write("---")
 
     # evaluate performance on both sets
     # st.write("### Pipeline Performance")
