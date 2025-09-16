@@ -1,1 +1,4 @@
+kaggle.json
 *.ipynb
+__pycache__/
+
