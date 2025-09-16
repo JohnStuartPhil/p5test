@@ -4,3 +4,4 @@ __pycache__/
 outputs/datasets/cleaned/TestSetCleaned.csv
 outputs/datasets/cleaned/TrainSetCleaned.csv
 outputs/datastes/collection/HousePrice Records.csv
+jupyter_notebooks/
