@@ -7,7 +7,7 @@ def page_summary_body():
     # text based on README file - "Dataset Content" section
     st.info(
         f"**Project Terms & Jargon**\n"
-        f"* TBC.\n"
+        f"* Test.\n"
         f"* TBC.\n"
         f"* TBC.\n "
         f"* TBC. \n\n" 
