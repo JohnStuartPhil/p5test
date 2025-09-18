@@ -28,15 +28,9 @@ def page_predict_sale_price_body():
     st.write("### ML Pipeline: Predict Sale Price")
     # display pipeline training summary conclusions
     st.info(
-        f"* TBC "
-        f"TBC**: "
-        f"TBC. "
-        f"TBC. \n"
-        f"* TBC, "
-        f"TBC. "
-        f"TBC.\n"
-        f"* TBC "
+        f"* A Regressor model was fitted and this met the R2 score of at least 0.7 "
         f"TBC.")
+    
     st.write("---")
 
     # # show pipeline steps
@@ -47,7 +41,7 @@ def page_predict_sale_price_body():
     # show best features
     st.write("* The features the model was trained and their importance.")
     #st.write(X_train.columns.to_list())
-    st.image(sale_price_feat_importance)
+    #st.image(sale_price_feat_importance)
     st.write("---")
 
     # evaluate performance on both sets

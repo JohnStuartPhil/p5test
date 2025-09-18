@@ -7,16 +7,14 @@ def page_summary_body():
     # text based on README file - "Dataset Content" section
     st.info(
         f"**Project Terms & Jargon**\n"
-        f"* Test.\n"
-        f"* TBC.\n"
-        f"* TBC.\n "
+        f"* The prospective **Sale Price** is what the customer is interested in.\n"
+        f"* Other variables are explained in the README file (link below).\n"
         f"* TBC. \n\n" 
         f"**Project Dataset**\n"
-        f"* The dataset represents a **House Prices in Iowa** "
+        f"* The dataset represents **House Prices in Iowa** "
         f"containing data about each house "
         f"(such as area size of floors, basement, gargae), "
-        f"Years (such as the year that the house was built,) "
-        f"and profile (like gender, partner, dependents).")
+        f"Years (such as the year that the house was built.")
 
     # Link to README file, so the users can have access to full project documentation
     st.write(
