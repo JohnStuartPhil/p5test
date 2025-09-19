@@ -99,5 +99,6 @@ TBC
 ## References
 Much of the code was taken from the Chrunometer walkthrough and amended accordingly
 
-## Thank you
+## Thank yous
+Tutor: Niel McEwan
 Mentor: Rohit Sharma
