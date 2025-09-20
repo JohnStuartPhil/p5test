@@ -46,10 +46,5 @@ def page_house_price_study_body():
     st.info(
         f"The correlation indications and plots below interpretation converge. "
         f"It is indicated that: \n"
-        f"* TBC \n"
-        f"* TBC. \n"
-        f"* TBC. \n"
-        f"* TBC. \n"
-        f"* TBC. \n"
     )
 
