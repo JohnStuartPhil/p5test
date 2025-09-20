@@ -99,6 +99,12 @@ TBC
 ## References
 Much of the code was taken from the Chrunometer walkthrough and amended accordingly
 
+## Issues
+Noticed when y_data profiling brought up on screen and working, other graphics later in the notebook such as heat maps, correllation charts etc would run not display graphics. 
+When y_data profiling commented out, and kernel re-started, noticed that said heat maps, correllation charts etc would display graphics correctley. Issue not resolved.
+
 ## Thank yous
 Tutor: Niel McEwan
 Mentor: Rohit Sharma
+
+

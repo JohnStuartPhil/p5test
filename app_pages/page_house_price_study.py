@@ -74,13 +74,20 @@ def sale_price_level_per_variable(df_eda):
 
 
 
-# code copied from "02 - Churned Customer Study" notebook - "Variables Distribution by Churn" section
-def plot(df, col, target_var):
-    fig, axes = plt.subplots(figsize=(8, 5))
-    sns.histplot(data=df, x=col, hue=target_var, kde=True, element="step")
-    plt.title(f"{col}", fontsize=20, y=1.05)
-    st.pyplot(fig)  # st.pyplot() renders image, in notebook is plt.show()
+# # code copied from "02 - Churned Customer Study" notebook - "Variables Distribution by Churn" section
+# def plot(df, col, target_var):
+#     fig, axes = plt.subplots(figsize=(8, 5))
+#     sns.histplot(data=df, x=col, hue=target_var, kde=True, element="step")
+#     plt.title(f"{col}", fontsize=20, y=1.05)
+#     st.pyplot(fig)  # st.pyplot() renders image, in notebook is plt.show()
 
-
-
-
+if st.checkbox("Sale Price Levels per Variable"):
+    def plot(df, col, target_var):
+        x, y = '1stFlrSF' , 'SalePrice'
+        fig, axes = plt.subplots(figsize=(8, 5))
+        plt.scatter(data=df, x=x, y=y, c=y)
+        plt.ylabel(y)
+        plt.xlabel(x)
+        plt.show()
+        st.pyplot(fig) 
+        
