@@ -15,7 +15,7 @@ def page_house_price_study_body():
     # load data
     df = load_house_price_records_data()
 
-    # hard copied from churned customer study notebook
+    # hard copied from study notebook
     vars_to_study = ['GarageArea', 'GrLivArea', 'OverallQual', 'TotalBsmtSF', 'YearBuilt']
 
 
@@ -35,9 +35,6 @@ def page_house_price_study_body():
 
     st.write("---")
 
-
-
-
     # Correlation Study Summary
     st.write(
         f"* A correlation study was conducted in the notebook to better understand how "
@@ -45,7 +42,7 @@ def page_house_price_study_body():
         f"The most correlated variable are: **{vars_to_study}**"
     )
 
-    # Text based on "02 - Churned Customer Study" notebook - "Conclusions and Next steps" section
+    # Text based on "02 - Study notebook"
     st.info(
         f"The correlation indications and plots below interpretation converge. "
         f"It is indicated that: \n"
@@ -56,38 +53,3 @@ def page_house_price_study_body():
         f"* TBC. \n"
     )
 
-    # Code copied from "02 - Churned Customer Study" notebook - "EDA on selected variables" section
-    df_eda = df.filter(vars_to_study + ['SalePrice'])
-
-    # Individual plots per variable
-    if st.checkbox("Sale Price Levels per Variable"):
-        sale_price_level_per_variable(df_eda)
-
-
-# function created using "02 - Churned Customer Study" notebook code - "Variables Distribution by Churn" section
-def sale_price_level_per_variable(df_eda):
-    target_var = 'SalePrice'
-
-    for col in df_eda.drop([target_var], axis=1).columns.to_list():
-            plot(df_eda, col, target_var)
-
-
-
-
-# # code copied from "02 - Churned Customer Study" notebook - "Variables Distribution by Churn" section
-# def plot(df, col, target_var):
-#     fig, axes = plt.subplots(figsize=(8, 5))
-#     sns.histplot(data=df, x=col, hue=target_var, kde=True, element="step")
-#     plt.title(f"{col}", fontsize=20, y=1.05)
-#     st.pyplot(fig)  # st.pyplot() renders image, in notebook is plt.show()
-
-if st.checkbox("Sale Price Levels per Variable"):
-    def plot(df, col, target_var):
-        x, y = '1stFlrSF' , 'SalePrice'
-        fig, axes = plt.subplots(figsize=(8, 5))
-        plt.scatter(data=df, x=x, y=y, c=y)
-        plt.ylabel(y)
-        plt.xlabel(x)
-        plt.show()
-        st.pyplot(fig) 
-        

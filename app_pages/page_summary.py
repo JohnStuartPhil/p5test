@@ -8,8 +8,7 @@ def page_summary_body():
     st.info(
         f"**Project Terms & Jargon**\n"
         f"* The prospective **Sale Price** is what the customer is interested in.\n"
-        f"* Other variables are explained in the README file (link below).\n"
-        f"* TBC. \n\n" 
+        f"* Other variables are explained in the README file (link below).\n\n"
         f"**Project Dataset**\n"
         f"* The dataset represents **House Prices in Iowa** "
         f"containing data about each house "
